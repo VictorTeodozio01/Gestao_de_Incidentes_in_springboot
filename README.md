@@ -2,7 +2,7 @@
 
 Esta é uma aplicação Spring Boot para gerenciar incidentes, oferecendo funcionalidades como criação, edição, exclusão e listagem de incidentes. O sistema foi desenvolvido utilizando uma API REST e inclui uma interface frontend simples com Thymeleaf e Bootstrap.
 
-# No menu 'Listar todos incidentes', também estarão disponíveis as seguintes opções:"
+## No menu 'Listar todos incidentes', também estarão disponíveis as seguintes opções:"
 - **Atualizar Incidentes**
 - **Deletar Incidentes**
 - **Listar incidente por ID**: consulta pelo ID quando o usuario digitar.
@@ -35,7 +35,7 @@ Foi implementado o Spring Security com autenticação utilizando as seguintes cr
    cd APP_cadastro_de_incidentes
 
 
-# Abra o prompt de comando ou o terminal do VSCode no diretório do projeto e execute os seguintes comandos:
+## Abra o prompt de comando ou o terminal do VSCode no diretório do projeto e execute os seguintes comandos:
 
 
 2. *Use o Maven para compilar e empacotar o projeto:*
