@@ -35,23 +35,23 @@ Foi implementado o Spring Security com autenticação utilizando as seguintes cr
    cd APP_cadastro_de_incidentes
 
 
-## Abra o prompt de comando ou o terminal do VSCode no diretório do projeto e execute os seguintes comandos:
+### Abra o prompt de comando ou o terminal do VSCode no diretório do projeto e execute os seguintes comandos:
 
 
-2. Use o Maven para compilar e empacotar o projeto:
+2. **Use o Maven para compilar e empacotar o projeto:**
 
 *mvn clean package*
 
-3. Para executar o projeto localmente:
+3. **Para executar o projeto localmente:**
 
 *mvn spring-boot:run*
 
-4. Caso tenha o Docker e Docker Compose instalados, execute o comando a seguir para iniciar o projeto em contêiner:
+4. **Caso tenha o Docker e Docker Compose instalados, execute o comando a seguir para iniciar o projeto em contêiner:**
 
 *docker-compose up*
 
 
-## Acesso à API e à Interface:
+### Acesso à API e à Interface:
 
 *API Documentada pelo Swagger*: http://localhost:8080/swagger-ui.html.
 
@@ -65,5 +65,4 @@ User: sa
 
 Password: 123
 
-
-## Utilizei o banco de dados H2 e configurei para execução offline, pois  facilita rodar a aplicação em outras máquinas sem a necessidade de reconfigurações.
+Utilizei o banco de dados H2 e configurei para execução offline, pois  facilita rodar a aplicação em outras máquinas sem a necessidade de reconfigurações.
