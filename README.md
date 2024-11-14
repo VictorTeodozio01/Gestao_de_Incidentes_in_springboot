@@ -51,15 +51,19 @@ mvn spring-boot:run
 docker-compose up
 
 
-# Acesso à API e à Interface:
+## Acesso à API e à Interface:
 
 *API Documentada pelo Swagger*: http://localhost:8080/swagger-ui.html.
+
 *Página Inicial da Interface Web*: http://localhost:8080.
 
 *Acesso ao Banco de Dados H2*: 
+
 http://localhost:8080/h2-console 
+
 User: sa
+
 Password: 123
 
 
-# Utilizei o banco de dados H2 e configurei para execução offline, pois  facilita rodar a aplicação em outras máquinas sem a necessidade de reconfigurações.
+## Utilizei o banco de dados H2 e configurei para execução offline, pois  facilita rodar a aplicação em outras máquinas sem a necessidade de reconfigurações.
