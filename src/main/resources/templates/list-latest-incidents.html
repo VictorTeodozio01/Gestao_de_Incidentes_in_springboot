@@ -1,0 +1,38 @@
+<div th:replace="~{base.html}"></div>
+
+<div class="container mt-5">
+<h2 class="mb-4">Lista dos últimos 20 incidentes</h2>
+
+<div class="table-responsive">
+    <table class="table table-bordered table-striped table-hover">
+        <thead class="table-light">
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Descrição</th>
+                <th>Data de criação</th>
+                <th>Data de modificação</th>
+            </tr>
+        </thead>
+        <tbody id="latest-incident-table-body">
+        </tbody>
+    </table>
+</div>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        fetch("/api/incidents/latest")
+            .then(response => response.json())
+            .then(data => {
+                const tbody = document.getElementById("latest-incident-table-body");
+                tbody.innerHTML = data.map(incident => `
+                    <tr>
+                        <td>${incident.idIncident}</td>
+                        <td>${incident.name}</td>
+                        <td>${incident.description}</td>
+                        <td>${new Date(incident.createdAt).toLocaleString()}</td>
+                        <td>${incident.updatedAt ? new Date(incident.updatedAt).toLocaleString() : 'Não atualizado'}</td>
+                    </tr>
+                `).join("");
+            });
+    });
+</script>
