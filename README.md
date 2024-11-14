@@ -38,17 +38,17 @@ Foi implementado o Spring Security com autenticação utilizando as seguintes cr
 ## Abra o prompt de comando ou o terminal do VSCode no diretório do projeto e execute os seguintes comandos:
 
 
-2. *Use o Maven para compilar e empacotar o projeto:*
+2. Use o Maven para compilar e empacotar o projeto:
 
-mvn clean package
+*mvn clean package*
 
-3. *Para executar o projeto localmente:*
+3. Para executar o projeto localmente:
 
-mvn spring-boot:run
+*mvn spring-boot:run*
 
-4. *Caso tenha o Docker e Docker Compose instalados, execute o comando a seguir para iniciar o projeto em contêiner:*
+4. Caso tenha o Docker e Docker Compose instalados, execute o comando a seguir para iniciar o projeto em contêiner:
 
-docker-compose up
+*docker-compose up*
 
 
 ## Acesso à API e à Interface:
