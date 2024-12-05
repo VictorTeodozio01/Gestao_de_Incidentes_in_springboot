@@ -1,4 +1,5 @@
 # APP de Cadastro de Incidentes
+<img src="tela_inicial.png" alt="Logo do Projeto" width="600" />
 
 Esta é uma aplicação Spring Boot para gerenciar incidentes, oferecendo funcionalidades como criação, edição, exclusão e listagem de incidentes. O sistema foi desenvolvido utilizando uma API REST e inclui uma interface frontend simples com Thymeleaf e Bootstrap.
 
